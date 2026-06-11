@@ -6,11 +6,12 @@ The goal is to make early ideas fast to sketch, easy to inspect, and realistic e
 
 ## Projects
 
-| Project | What it is | Use it for |
-| --- | --- | --- |
-| [async-framework](https://github.com/async-framework/async-framework) | Lightweight signal-based framework for reactive web apps with custom elements and async handlers. | Delegated `on:<event>` handlers, local and remote handler registries, runtime-first UI experiments, and signal-based projections. |
-| [async-db](https://github.com/async-framework/async-db) | Gradual data workflow from JSON fixtures to generated types, local APIs, writable stores, and real persistence. | Move from local prototype data to typed APIs and durable state in small steps. |
-| [async-miniweb](https://github.com/async-framework/async-miniweb) | Tiny local web runtime for static-hosted demos and fast Node-side integration tests. | Host demos, test Web-standard behavior, and keep examples easy to run and inspect. |
+| Project | Stage | What it is | Use it for |
+| --- | --- | --- | --- |
+| [async-framework](https://github.com/async-framework/async-framework) | Experimental / stale | Lightweight signal-based framework for reactive web apps with custom elements and async handlers. | Delegated `on:<event>` handlers, local and remote handler registries, runtime-first UI experiments, and signal-based projections. |
+| [async-db](https://github.com/async-framework/async-db) | Alpha | Gradual data workflow from JSON fixtures to generated types, local APIs, writable stores, and real persistence. | Move from local prototype data to typed APIs and durable state in small steps. |
+| [async-web](https://github.com/async-framework/async-web) | Experimental | Web app, router, and Request -> Response runtime workspace for composing browser, API, edge, and data-backed apps. | Start with `@async/web`, then drop to `@async/web/router` or `@async/web/runtime` when routing, placement, cache behavior, or provider hooks need more control. |
+| [async-pipeline](https://github.com/async-framework/async-pipeline) | Beta | Local-first TypeScript pipeline engine for typed task graphs, run evidence, cache inputs, and thin generated GitHub Actions workflows. | Run the same verification workflow on a laptop and in CI while keeping workflow logic inspectable in `pipeline.ts`. |
 
 ## Direction
 
